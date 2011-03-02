@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="rotator.js"></script>
+<meta http-equiv="refresh" content="20; url=http://www.gaiared.com//">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ecuador Sonoro - </title>
+<style type="text/css">
+#Header {
+	height: 225px;
+}
+#Row1 {
+	height: 191px;
+}
+#Spacer1 {
+	height: 10px;
+}
+#Row2 {
+	height: 191px;
+}
+#Spacer2 {
+	height: 33px;
+}
+#Row3 {
+	height: 119px;
+}
+
+.background-intro {
+	background: #FFF top center url(images/background.jpg) no-repeat;
+	margin: 0 auto;	
+}
+div#Rotator1 {
+	height: 191px;
+	margin-left: -4px;
+}
+div#Rotator2 {
+	height: 191px;
+	
+}
+
+div ul li img {display: block;}
+/* rotator in-page placement */
+
+div#rotator1 
+{
+	position:relative;
+	height:191px;
+	display: block;
+	margin-top: -18px;
+	margin-left: -22px;
+}
+
+
+
+div#rotator2 {
+	position:relative;
+	height:191px;
+	display: block;
+	margin-top: -19px;
+	margin-left: -19px;
+}
+
+/* rotator css */
+div#rotator1 ul li,
+div#rotator2 ul li {
+	float:left;
+	position:absolute;
+	list-style: none;
+	list-style-type: none;
+}
+
+/* rotator image style	*/
+div#rotator1 ul li img,
+div#rotator2 ul li img {
+	border: none;
+	padding: 0;
+	background: #FFF;
+}
+div#rotator1 ul li.show
+div#rotator2 ul li.show {
+	z-index:500;
+}
+</style>
+<!-- Framework CSS -->
+    <link rel="stylesheet" href="../css/blueprint/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="../css/blueprint/print.css" type="text/css" media="print" />
+    <!--[if lt IE 8]>
+    	<link rel="stylesheet" href="./css/blueprint/ie.css" type="text/css" media="screen, projection" />
+    <![endif]-->
+    <style type="text/css" media="screen">
+      p, table, hr, .box { margin-bottom:25px; }
+      .box p { margin-bottom:10px; }
+	 
+    </style>
+</head>
+
+<body class="background-intro">
+  <div class="container">
+  	<div id="Main" class="span-24 last">
+    	<div id="Header" class="span-24 last"></div>
+    	
+        <div id="Row1" class="span-24 last">
+        	<div id="rotatorholder1" class="prepend-5 span-5 last append-14">
+            <div id="rotator1" class="rotator clear-block">
+           <ul>
+                <li class="show">
+                <a href="javascript:void(0)">
+                <img src="images/intro1/1.jpg" width="192" height="191"  alt="pic1" />
+                </a>
+                </li>
+                <li>
+                <a href="javascript:void(0)">
+                <img src="images/intro1/2.jpg" width="192" height="191" alt="pic2" />
+                </a>
+                </li>
+                <li>
+                <a href="javascript:void(0)">
+                <img src="images/intro1/3.jpg" width="192" height="191" alt="pic3" />
+                </a>
+                </li>
+                <li>
+                <a href="javascript:void(0)">
+                 <img src="images/intro1/4.jpg" width="192" height="191" alt="pic4" />
+                </a>
+                </li>
+                 <li>
+                <a href="javascript:void(0)">
+                 <img src="images/intro1/5.jpg" width="192" height="191" alt="pic5" />
+                </a>
+                </li>
+              </ul>
+            </div>  
+        	</div>
+        </div>
+        
+        <div id="Spacer1" class="span-24 last"></div>
+    	
+        <div id="Row2" class="span-24 last">
+        	<div id="rotatorholder" class="prepend-20 span-4 last">
+            <div id="rotator2" class="rotator clear-block">
+             <ul>
+                <li class="show">
+                <a href="javascript:void(0)">
+                <img src="images/intro2/1.jpg" width="192" height="191"  alt="pic1" />
+                </a>
+                </li>
+                <li>
+                <a href="javascript:void(0)">
+                <img src="images/intro2/2.jpg" width="192" height="191" alt="pic2" />
+                </a>
+                </li>
+                <li>
+                <a href="javascript:void(0)">
+                <img src="images/intro2/3.jpg" width="192" height="191" alt="pic3" />
+                </a>
+                </li>
+                <li>
+                <a href="javascript:void(0)">
+                 <img src="images/intro2/4.jpg" width="192" height="191" alt="pic4" />
+                </a>
+                </li>
+                 <li>
+                <a href="javascript:void(0)">
+                 <img src="images/intro2/5.jpg" width="192" height="191" alt="pic5" />
+                </a>
+                </li>
+              </ul>
+            </div>  
+        	</div>
+        </div>
+        
+        <div id="Spacer2" class="span-24 last"></div>
+        
+        <div id="Row3" class="span-24 last">
+        	<div id="Image" class="prepend-4 span-20 last">
+             <a href="http://www.ministeriodecultura.gob.ec" alt="Visitar ministeriodecultura.gob.ec" target="_blank">
+             <img src="images/logo.jpg" width="909" height="117" alt="Logo Ministerio de Cultura - Somos Cultura" />
+             </a>
+            </div>
+        </div>
+        
+    </div>
+  </div>
+</body>
+</html>

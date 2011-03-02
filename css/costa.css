@@ -1,0 +1,18 @@
+/* CSS Document */
+
+/* Costa Start */
+.background-costa { background: url(/costa/images/bg-costa.jpg) no-repeat top center; height: 2200px; margin: 0 auto;}
+#Header {height:146px;}
+#Main {height:2037px;}
+#Stickynote { background: url(/images/menu-rectangle.png) no-repeat; height: 187px; z-index:100; position:relative;}
+/*.bgtext { background: url(../../costa/images/bg-text-costa.png) repeat-y top left; max-height: 1850px;}*/
+#Search { background: url(/images/search-placeholder.png) no-repeat top left; height: 67px;}
+#Navigation {background: blue; min-height: 200px;}
+#Subnavigation { background: #333; height: 80px; }
+#Content { height: auto; }
+/*#Content { background-color: #E4A777;; height: auto; }*/
+#Inner { height: auto;}
+#Pic { height: 475px;}
+#Map { height: 475px;}
+#Footer { height: 106px; }
+/* Costa End */
